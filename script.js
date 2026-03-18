@@ -8,6 +8,7 @@ if (btnAzul) {
     btnAzul.addEventListener('click', () => cuerpo.style.backgroundColor = '#3498db');
     btnRojo.addEventListener('click', () => cuerpo.style.backgroundColor = '#e74c3c');
     btnVerde.addEventListener('click', () => cuerpo.style.backgroundColor = '#2ecc71');
+    console.log('bton')
 }
 
 class MenuNavegacion extends HTMLElement {
